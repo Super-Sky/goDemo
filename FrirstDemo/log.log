@@ -1,0 +1,9 @@
+func1 error [logid:1602488324526487298 .9007200000051977 unmarshal tcp request failed.  
+ rqID:11421
+ rsID:11422
+ func:OnLeagueWarnInfoRq
+ rqType:LeagueWarn.GetLeagueWarnRQ
+ rsType:LeagueWarn.GetLeagueWarnRS
+ len:33 sharedingID:9007200000051977
+ sessionID:1 token:0
+ esID:2 error:proto: bad wiretype for field LeagueWarn.GetLeagueWarnRQ.Header: got wiretype 0, want 2 ]

@@ -1,0 +1,15 @@
+syntax = "proto2";
+package GolangLabSvr;
+
+// 定义发送信息
+message TestRQ {
+  optional uint64 userid = 1;
+  optional string question = 2;
+}
+
+// 定义接收信息
+message TestRS {
+  optional uint64 userid = 1;
+  optional string  answer = 2;
+}
+

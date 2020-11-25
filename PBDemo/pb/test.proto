@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+package PBtest;
+enum ClassName{
+  class1 = 0;
+  class2 = 1;
+  class3 = 2;
+}
+
+message Student {
+  string name =1;
+  int32 age = 2;
+  string address = 3;
+  ClassName cn=4;
+}
+
+message Students{
+  repeated Student person =1;
+  string school = 2;
+}
